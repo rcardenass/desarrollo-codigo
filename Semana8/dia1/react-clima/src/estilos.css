@@ -1,0 +1,11 @@
+.flex-centrado {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.botonFlecha {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
