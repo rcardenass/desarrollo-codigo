@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Solicitud de Pedido</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Gestion de Materiales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Gestión de Compras</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+<main class="container">
+<div class="row shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="col-2">
+        <label class="form-label">Tio Solped</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione Tipo</option>
+            <option value="1">Servicio</option>
+            <option value="2">Producto</option>
+          </select>
+      </div>       
+      <div class="col-2">
+        <label class="form-label">Fecha</label>
+        <input type="date" class="form-control">
+      </div>
+      <div class="col-3">
+        <label class="form-label">Centro</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione Centro</option>
+            <option value="1">Lima</option>
+            <option value="2">Ayacucho</option>
+          </select>
+      </div>   
+      <div class="col-3">
+        <label class="form-label">Almacen</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione Almacen</option>
+            <option value="1">General</option>
+          </select>
+      </div>       
+      <div class="col-2 align-self-end">
+        <button type="submit" class="btn btn-primary" style="vertical-align: text-bottom">Sign in</button>
+      </div>    
+</div>
+
+<table class="table table-sm table-bordered">
+    <thead>
+        <tr>
+            <th>Nro</th>
+            <th>Fecha</th>
+            <th>Centro</th>
+            <th>Almacen</th>
+            <th>Marca</th>
+            <th>Categoria</th>
+            <th>Modelo</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0000000001</td>
+            <td>01/12/2020</td>
+            <td>Lima</td>
+            <td>General</td>
+            <td>Xiaomi</td>
+            <td>Smartforms</td>
+            <td>Poco F2 Pro</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>0000000002</td>
+            <td>03/12/2020</td>
+            <td>Lima</td>
+            <td>General</td>
+            <td>Lenovo</td>
+            <td>Laptop</td>
+            <td>IdeaPad Z410</td>
+            <td>12</td>
+        </tr>        
+        <tr>
+            <td>0000000003</td>
+            <td>06/12/2020</td>
+            <td>Lima</td>
+            <td>General</td>
+            <td>Benq</td>
+            <td>Monitor</td>
+            <td>Senseye 3 Led</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>0000000004</td>
+            <td>11/12/2020</td>
+            <td>Lima</td>
+            <td>General</td>
+            <td>Logitec</td>
+            <td>Mouse</td>
+            <td>M170</td>
+            <td>9</td>
+        </tr>
+    </tbody>
+</table>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>
